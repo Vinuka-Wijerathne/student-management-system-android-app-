@@ -1,0 +1,20 @@
+<!-- res/layout/item_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relat"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#D1D1D1"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/class_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Class_Name"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

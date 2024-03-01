@@ -1,0 +1,29 @@
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:id="@+id/relat2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="63dp"
+            android:layout_height="33dp"
+            android:text="ID"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="211dp"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:text="Name" />
+
+        <Button
+            android:id="@+id/btnpresent"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="Present" />
+
+</LinearLayout>

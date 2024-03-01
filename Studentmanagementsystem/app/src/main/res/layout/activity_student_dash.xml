@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student_dash"
+    android:background="@color/white">
+
+  <TextView
+      android:id="@+id/lbluser"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Welcome Back!"
+      android:textSize="40sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.38"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.14" />
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/notice12"
+      android:layout_width="336dp"
+      android:layout_height="151dp"
+      android:background="#CFCECE"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.493"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/lbluser"
+      app:layout_constraintVertical_bias="0.744" />
+
+  <TextView
+      android:id="@+id/lblnotices"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Notices"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.585" />
+
+  <TextView
+      android:id="@+id/lblcourses"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Attendance History"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.289" />
+
+  <ImageView
+      android:id="@+id/profileimg"
+      android:layout_width="67dp"
+      android:layout_height="55dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.953"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.023"
+      app:srcCompat="@drawable/name" />
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/attendencehis"
+      android:layout_width="330dp"
+      android:layout_height="132dp"
+      android:background="#CFCECE"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.493"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.42" />
+
+  <TextView
+      android:id="@+id/textView14"
+      android:layout_width="72dp"
+      android:layout_height="21dp"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="4dp"
+      android:text="Profile "
+      android:textAlignment="textEnd"
+      android:textColor="#023A77"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toStartOf="@+id/profileimg"
+      app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

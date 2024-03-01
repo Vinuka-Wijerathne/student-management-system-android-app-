@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relat3"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lin4"
+        android:layout_width="match_parent"
+        android:layout_height="83dp">
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="119dp"
+            android:layout_height="34dp"
+            android:text="Date"
+            android:textColor="#777777"
+            android:textSize="18dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/notice123"
+            android:layout_width="288dp"
+            android:layout_height="81dp"
+            android:text="Hi There Write your Notice here"
+            android:textSize="16dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

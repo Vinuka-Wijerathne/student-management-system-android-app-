@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recycle3"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Studentregistry"
+    android:background="@color/white">
+
+        <!-- res/layout/item_student.xml -->
+
+    <RelativeLayout
+        android:layout_width="414dp"
+        android:layout_height="733dp"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/backbtnimg"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="350dp"
+            android:layout_marginBottom="669dp"
+            app:srcCompat="@android:drawable/ic_menu_revert"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="13dp" />
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:id="@+id/textContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewID"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewID"
+                android:text="Name "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewAttendance"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textContainer"
+                android:text="Attendance "
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <!-- res/layout/activity_attendance.xml -->
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/recyclerView"
+            android:layout_width="384dp"
+            android:layout_height="651dp"
+            android:layout_marginTop="70dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="161dp" />
+
+
+    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+

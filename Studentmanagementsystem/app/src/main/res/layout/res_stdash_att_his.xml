@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp">
+
+    <LinearLayout
+        android:id="@+id/lin5"
+        android:outlineAmbientShadowColor="@color/cardview_light_background"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+
+        <TextView
+            android:id="@+id/date2"
+            android:layout_width="116dp"
+            android:layout_height="match_parent"
+            android:text="Date"
+            android:textSize="17dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/atte2"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"
+            android:text="Attendance"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
